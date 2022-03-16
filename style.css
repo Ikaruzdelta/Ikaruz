@@ -12,6 +12,12 @@ body {
     font-family: sans-serif;
 }
 
+@media(max-width: 1080px){
+    .cabecalho{
+        width: 100%;
+    }
+}
+
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -39,6 +45,7 @@ body {
 }
 
 .conteudo-principal{
+    display: flex;
 
 }
 
