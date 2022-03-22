@@ -23,7 +23,6 @@ nav{
     align-items: center;
     background: #000 20%;
     height: 8vh;
-    
 }
 
 .conteudo{
@@ -52,7 +51,7 @@ main{
     background: url("/Imagens/BackgroundIkaruz.png") no-repeat
     center center;
     background-size: cover;
-    height: 88vh;
+    height: 92vh;
 }
 
 .nav-list {
@@ -129,4 +128,51 @@ main{
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  .ouca{
+    font-size: 70px;
+  }
+
+  .nome-musica{
+    font-size: 50px;
+  }
+
+  .descricao{
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .youtube{
+    max-width:125px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .soundcloud{
+    max-width:125px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .suamusica{
+    max-width:125px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .redes-sociais{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .musica-nova{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
