@@ -7,7 +7,7 @@
 
 body {
     color: aliceblue;
-    font-size: 100p%;
+    font-size: 100%;
     background: rgb(10,10,10);
     font-family: sans-serif;
 }
@@ -77,7 +77,7 @@ main{
     transition: 0.3s;
   }
   
-  @media (max-width: 999px) {
+  @media (max-width: 767px) {
     body {
       overflow-x: hidden;
     }
@@ -103,6 +103,12 @@ main{
     }
     .mobile-menu {
       display: block;
+    }
+    .ouca{
+      font-size: 3em;
+    }
+    .nome-musica{
+      font-size: 2em;
     }
   }
   
