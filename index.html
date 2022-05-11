@@ -7,47 +7,65 @@
     <meta name="description" content="Ikaruz Conecta você a música de um modo inesquecivel">
     <link rel="shortcut icon" href="Imagens/IKARUZ-SIMBOLO-_BRANCO_.ico" type="image/x-icon">
     <title>Ikaruz</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
- 
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
 </head>
 
 <body>
-    <header> <!-- Header = Cabeçalho-->
-        <nav><!--Nav = Navegador-->
-        <img class="logo" src="Imagens/Logo.png"> 
-        <div class='mobile-menu'> <!--Aqui é feito as 3 listras do menu-->
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <img class="logo" src="/Imagens/Logo.png">
+            <ul id="navbar-items">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#loja">Loja</a></li>
+            </ul>
         </div>
-        <ul class="nav-list">       
-            <li><a href="index.html">Ínicio</a></li> <!--Colocamos o "a" para mostrar que é usado para link-->
-            <li><a href="/Páginas/Sobre/sobre.html">Sobre</a></li>
-            <li><a href="/Páginas/Loja/loja.html">Loja</a></li>
-            <li><a href="/Páginas/Contato/contato.html">Contato</a></li>
-        </ul>
-        </nav>
+    </nav>
+
+    <header id="showcase">
+        <div id="showcase-containter">
+            <h2>OUÇA AGORA</h2>
+            <img class="capa" src="/Imagens/Capa-CD.png">
+            <div id="redes-sociais">
+                <a href="https://www.youtube.com/watch?v=H9aKgsy4qzo" target="_blank">
+                    <img class="social" src="/Imagens/Youtube.png" alt="Imagem-youtube">
+                </a>
+                <a href="https://soundcloud.com/ikaruzmusic/festa-do-bota-vs-fisher-ikaruz-mashup?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
+                  <img class="social" src="/Imagens/SoundCloud.png" alt="Imagem-youtube">
+                </a>
+            </div>
+        </div>
     </header>
 
-    <main class="conteudo"> <!--Main = Conteudo principal-->
-        <script src="mobile-navbar.js"></script>
-            <div class = "musica-nova">
-                <h1 class="ouca">Ouça agora</h1>
-                <h2 class="nome-musica">Ikaruz and DJ GR - Revoada</h2>
-                <h3 class="descricao">click na plataforma!</h3>
-                <div class="redes-sociais">
-                    <a href="https://www.youtube.com/watch?v=BcyGHK-d8SE" target="_blank">
-                        <img class="youtube" src="Imagens/Youtube.png" alt="Imagem-youtube">
-                    </a>
-                    <a href="https://soundcloud.com/ikaruzmusic/ikaruz-x-gr-revoada-mega-tech-free-download?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-                        <img class="soundcloud" src="Imagens/soundcloud.png" alt="Imagem-soundcloud">
-                    </a>
-                    <a href="https://www.suamusica.com.br/Ikaruz/ikaruz-x-gr-revoada" target="_blank">
-                        <img class="suamusica" src="Imagens/Suamusica.png" alt="Imagem-suamusica">
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
+    <section id="agenda">
+        <h3 class="titulo">AGENDA DE MAIO<h3>
+            <ul id="datas">
+                <li>06/05 . . . . . . . . . . . Arraia do Gagau . . . . . . . . . . Lagarto/SE</li>
+                <li>    </li>
+                <li>07/05 . . . . . . . . . . . . . . . Privado . . . . . . . . . . . . . Lagarto/SE</li>
+                <li>    </li>
+                <li>07/05 . . . . . . . . . . . . Reggae Ouro . . . . . . . . . Heliópolis/BA</li>
+                <li>    </li>
+                <li>13/05 . . . . . . . . . . Apaixona Indiaroba . . . . . . Indiaroba/SE</li>
+                <li>    </li>
+                <li>14/05 . . . . . . . . . . . . Breeze lounge. . . . . . . . . Umbaúba/SE</li>
+                <li>    </li>
+                <li>20/05 . . . . . . . . . . . . . . . Privado . . . . . . . . . . . . . Lagarto/SE</li>
+                <li>    </li>
+                <li>21/05 . . . . . . . . . . . . . . . Décadas . . . . . . .  . . . Itabaiana/SE</li>
+            </ul>
+    </section>
+
+    <section id="loja"> 
+        <img class="bandeira" src="/Imagens/Bandeira.png">
+        <h5 class="produtos">BANDEIRA</h5>
+        <a class="comprar">COMPRAR</a>
+        <h6 class="descricao">Bandeira utilizada nos eventos em que Ikaruz passa!</h6>
+    </section>
+
+    <footer id="footer">
+        <p>Copyright 2022 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
